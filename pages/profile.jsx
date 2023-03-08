@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   const [profileText, setProfileText] = useState('');
@@ -22,8 +23,8 @@ export default function Home() {
           <nav className='p-10'>
             <h1 className="text-center my-20 text-3xl hover:scale-150 transition text-white font-bold font-mono">Profile</h1>
             <div className="my-2 flex gap-10 items-center justify-center">
-                <div className='text-right font-mono text-xl w-96 text-white overflow-clip'>
-                    <h1>An international undergraduate Informatics Engineering student with a strong interest in digital and social technologies. I've developed strong problem-solving abilities and am always eager to learn something new. I'm a quick study who enjoys taking on new challenges.</h1>
+                <div className="text-right font-mono text-xl w-96 text-white overflow-clip">
+                    <h1>An international undergraduate Informatics Engineering student with a strong interest in digital and social technologies. Ive developed strong problem-solving abilities and am always eager to learn something new. Im a quick study who enjoys taking on new challenges.</h1>
                 </div>
                 <Image
                 className='rounded-xl'
@@ -35,7 +36,7 @@ export default function Home() {
             </div>
             <div className=''>
                 <h1 className='hover:text-xl items-center text-white'>
-                    <a href="/">Back</a>
+                    <Link href="/">Back</Link>
                 </h1>
             </div>
             

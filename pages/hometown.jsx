@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link'
 
 export default function Home() {
   const [profileText, setProfileText] = useState('');
@@ -23,7 +24,7 @@ export default function Home() {
             <h1 className="text-center my-20 text-3xl hover:scale-150 transition text-white font-bold font-mono">Hometown</h1>
             <div className="my-2 flex gap-10 items-center justify-center">
                 <div className='text-right font-mono text-xl w-96 text-white overflow-clip'>
-                    <h1>Bekasi is a growing city in West Java, Indonesia with over 2.5 million residents. It's located near Jakarta and is known for its cultural landmarks, diverse cuisine, and thriving economy. Despite its development, Bekasi has maintained its green spaces and natural beauty. Overall, it's a lively city that offers modern amenities and cultural attractions.</h1>
+                    <h1>Bekasi is a growing city in West Java, Indonesia with over 2.5 million residents. Its located near Jakarta and is known for its cultural landmarks, diverse cuisine, and thriving economy. Despite its development, Bekasi has maintained its green spaces and natural beauty. Overall, its a lively city that offers modern amenities and cultural attractions.</h1>
                 </div>
                 <Image
                 className='rounded-xl'
@@ -35,7 +36,7 @@ export default function Home() {
             </div>
             <div className=''>
                 <h1 className=' hover:text-xl mt-52 text-white'>
-                    <a href="/">Back</a>
+                    <Link href="/">Back</Link>
                 </h1>
             </div>
             

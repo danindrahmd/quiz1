@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link'
 
 export default function Home() {
   const [profileText, setProfileText] = useState('');
@@ -35,7 +36,7 @@ export default function Home() {
             </div>
             <div className=''>
                 <h1 className='hover:text-xl mt-52 text-white'>
-                    <a href="/">Back</a>
+                    <Link href="/">Back</Link>
                 </h1>
             </div>
             

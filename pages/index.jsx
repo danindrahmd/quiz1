@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -18,22 +19,22 @@ export default function Home() {
             <ul className='text-center mt-28 text-xl text-white'>
               <li className="shadow-xl rounded-xl mx-5 my-5 min-h-min cursor-pointer">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-black py-2 px-4 rounded-full hover:animate-pulse w-56">
-                  <a href="/profile">Profile</a>
+                  <Link href="/profile">Profile</Link>
                 </button>
               </li>
               <li className="shadow-xl rounded-xl mx-5 my-5 min-h-min cursor-pointer">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-black py-2 px-4 rounded-full hover:animate-pulse w-56">
-                  <a href="/hometown">Hometown</a>
+                  <Link ahref="/hometown">Hometown</Link>
                 </button>
               </li>
               <li className="shadow-xl rounded-xl mx-5 my-5 min-h-min cursor-pointer">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-black py-2 px-4 rounded-full hover:animate-pulse w-56">
-                  <a href="/food">Food</a>
+                  <Link href="/food">Food</Link>
                 </button>
               </li>
               <li className="shadow-xl rounded-xl mx-5 my-5 min-h-min cursor-pointer">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-black py-2 px-4 rounded-full hover:animate-pulse w-56">
-                  <a href="/tourist">Tourist</a>
+                  <Link href="/tourist">Tourist</Link>
                 </button>
               </li>
             </ul>
