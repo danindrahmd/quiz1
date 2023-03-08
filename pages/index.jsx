@@ -13,28 +13,32 @@ export default function Home() {
       <main>
         <section className='bg-black h-screen'>
           <nav className='p-10'>
-            <h1 className="text-center my-20 text-5xl hover:scale-150 transition text-white font-boldul font-mono">Ahmad Danindra</h1>
+            <h1 className="text-center my-20 text-5xl hover:scale-150 transition text-white font-bold font-mono">Ahmad Danindra</h1>
             <div className="text-center mb-10">
             </div>
             <ul className='text-center mt-28 text-xl text-white'>
               <li className="shadow-xl rounded-xl mx-5 my-5 min-h-min cursor-pointer">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-black py-2 px-4 rounded-full hover:animate-pulse w-56">
-                  <Link href="/profile">Profile</Link>
+                  <Link href="/profile">
+                    <a>
+                     Profile
+                    </a>
+                  </Link>
                 </button>
               </li>
               <li className="shadow-xl rounded-xl mx-5 my-5 min-h-min cursor-pointer">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-black py-2 px-4 rounded-full hover:animate-pulse w-56">
-                  <Link ahref="/hometown">Hometown</Link>
+                  <Link href="/hometown"><a>Hometown</a></Link>
                 </button>
               </li>
               <li className="shadow-xl rounded-xl mx-5 my-5 min-h-min cursor-pointer">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-black py-2 px-4 rounded-full hover:animate-pulse w-56">
-                  <Link href="/food">Food</Link>
+                  <Link href="/food"><a>Food</a></Link>
                 </button>
               </li>
               <li className="shadow-xl rounded-xl mx-5 my-5 min-h-min cursor-pointer">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-black py-2 px-4 rounded-full hover:animate-pulse w-56">
-                  <Link href="/tourist">Tourist</Link>
+                  <Link href="/tourist"><a>Tourist</a></Link>
                 </button>
               </li>
             </ul>

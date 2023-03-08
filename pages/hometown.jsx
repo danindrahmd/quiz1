@@ -36,7 +36,7 @@ export default function Home() {
             </div>
             <div className=''>
                 <h1 className=' hover:text-xl mt-52 text-white'>
-                    <Link href="/">Back</Link>
+                    <Link href="/"><a>Back</a></Link>
                 </h1>
             </div>
             
